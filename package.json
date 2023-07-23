@@ -1,0 +1,17 @@
+{
+  "name": "pickaplayer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
